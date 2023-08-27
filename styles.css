@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    overflow-x: none;
+    background-image: url("background.jpg");
+}
+
+.navContainer{
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.468);
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+.navContainer img{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 80px;
+    border-radius: 50%;
+}
+.navL{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
+}
+nav{
+    width: 100%;
+}
+#navList{
+    width: 100%;
+    padding: 15px;
+    list-style: none ;
+    font-size: 2.5rem;
+    display: flex  ;
+    justify-content: space-between ;
+    align-items: center;
+}
+
+#navLogo{
+    margin-left: 25px;
+    margin-top: 17px;
+    font-size: 2.5rem;
+    color: white;
+}
+
+
+#navItems{
+    display: flex;
+    gap: 16px;
+}
+
+
+a{
+    text-decoration: none;
+    font-family: Roboto, sans-serif;
+font-weight: 0;
+font-size: 24px;
+color: #fff;
+background-color: #ffffff00;
+padding: 10px 30px;
+border: solid #0066cc00 2px;
+box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+border-radius: 50px;
+transition : 1000ms;
+transform: translateY(0);
+display: flex;
+flex-direction: row;
+align-items: center;
+cursor: pointer;
+}
+    
+a:hover{
+    
+    transition : 1000ms;
+padding: 10px 50px;
+transform : translateY(-0px);
+background-color: #ffffffc8;
+color: #000000;
+border: solid 2px #ff0000;
+}
+.contentBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contentBox1{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    margin-top: 400px;
+    flex-direction: column;
+    
+}
+.wel{
+    font-size: 5rem;
+    color: white;
+    text-align: center;
+}
+.p1{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+}
+
+
+
+.btn{
+margin-top: 30px;
+font-family: Roboto, sans-serif;
+font-weight: 100;
+font-size: 25px;
+color: #fff;
+background-color: #e30000;
+padding: 10px 30px;
+border: solid #de0000 2px;
+box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+border-radius: 50px;
+transition : 332ms;
+transform: translateY(0);
+display: flex;
+flex-direction: row;
+align-items: center;
+cursor: pointer;
+}
+
+.btn:hover{
+
+transition : 332ms;
+padding: 10px 30px;
+transform : translateY(-0px);
+background-color: #fff;
+color: #000000;
+border: solid 2px #cc0000;
+}
+
+.ser{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.item{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+.item1{
+    border: 4px solid brown;
+    padding: 30px;
+    margin: 3px 6px;
+    border-radius: 23px;
+    background-color: #f2f2f2;
+}
+
+.item2{
+    border: 4px solid brown;
+    padding: 30px;
+    margin: 3px 6px;
+    border-radius: 23px;
+    background-color: #f2f2f2;
+}
+.item3{
+    border: 4px solid brown;
+    padding: 30px;
+    margin: 3px 6px;
+    border-radius: 23px;
+    background-color: #f2f2f2;
+}
+.item img {
+    margin: auto;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.item p{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.item h2{
+    height: 50px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.client{
+    height: 45vh;
+    width: 100%;
+    overflow-x: none;
+    background-color: #232323;
+    background-image: url("luxa.org-opacity-changed-bg\ \(1\).jpg");
+}
+.client h1{
+    text-align: center;
+    margin-top: 50px;
+    color: #000000;
+}
+
+.clie{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+.forms {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-direction: column;
+    font-size: 1.7rem;
+    background-image: url(contact.jpg);
+    background-size: 2600px;
+
+}
+.inpu input{
+
+    width: 800px;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.inpu1 input{
+    width: 400px;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.cc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5vh;
+    background: rgb(255,207,207);
+background: linear-gradient(90deg, rgba(255,207,207,1) 0%, rgba(255,136,136,1) 44%, rgba(255,60,60,1) 100%);
+}
